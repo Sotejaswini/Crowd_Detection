@@ -2,6 +2,11 @@
 Real-time crowd detection system using YOLOv4 and OpenCV to identify and track groups of people based on proximity and persistence in video footage.
 This Python application detects crowds in videos by identifying groups of people standing close to each other for a specific duration.
 
+### Video Explanation
+Watch a detailed explanation of the approach, implementation, and results:
+
+[🔗 Watch the Demo Video](https://drive.google.com/file/d/13ygcpgt0caLxkx-9C8vpNlyOtAZQ_q0c/view)
+
 ## Features
 
 -  Uses **YOLOv4** for person detection  
@@ -75,5 +80,7 @@ The YOLOv4 model files (weights, config, and class names) are downloaded automat
 
 CUDA acceleration is used if available to speed up detection.
 
-License
-This project is open-source and available under the MIT License.
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
