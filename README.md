@@ -48,13 +48,13 @@ Argument	Description	Default
 --persistence	Number of consecutive frames a group must persist to be logged as a crowd	10
 --display	Display video during processing (flag)	Off
 ```
-###Output
+## Output
 The program generates:
 
  A CSV file with detected crowd events (frame number and person count)
 An optional output video with bounding boxes and crowd highlights
 
-###How It Works
+## How It Works
 Person Detection: Uses YOLOv4 to detect persons in each frame.
 Crowd Identification: Groups persons standing close to each other.
 Persistence Tracking: Monitors groups across consecutive frames.
