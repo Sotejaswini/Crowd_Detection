@@ -60,7 +60,7 @@ Person Detection: Uses YOLOv4 to detect persons in each frame.
 Crowd Identification: Groups persons standing close to each other.
 Persistence Tracking: Monitors groups across consecutive frames.
 Event Logging: Logs events when crowd conditions are met.
-
+```
 Example
 ```bash
 # Basic usage
